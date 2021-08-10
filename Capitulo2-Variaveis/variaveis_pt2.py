@@ -1,0 +1,7 @@
+nome=input("Digite um funcionário: ")
+empresa=input("Digite uma instituição: ")
+qtde_funcionarios=int(input("Digite a qtde de funcionarios: "))
+mediaMensalidade=float(input("Digite a media da mensalidade: "))
+print(nome + " trabalha na empresa " + empresa)
+print("Possui", qtde_funcionarios, " funcionarios.")
+print("A média de mensalidade é de: " + str(mediaMensalidade))
